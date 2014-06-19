@@ -4,7 +4,7 @@ The interaction dashboard is an interaction log viewer and visualizer for
 Human-Robot Interaction (HRI) systems. The log visualizer can be used to glean
 insights on the interaction data stored within the logs. You can render charts
 of interaction type, reponses, and filter down your queries to specific dates,
-etc. For Screenshots, please visit: xxxx. A live demo is hosted here: xxxxxx
+etc. A live demo is hosted here: http://desertrose.qatar.cmu.edu/Dashboard/
 
 ## Motivation
 
