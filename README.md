@@ -22,10 +22,13 @@ To install the dashboard:
 
 1) Ensure you have a functioning LAMP stack (Linux/Apache/MySQL/PHP) on your 
    machine. Setup Apache to serve the files located in the WWW folder.
+   
 2) Perfom the Extract, Transform and Load (ETL) of your interaction data into
    a MySQL database. Use the instructions in the `etl` folder to proceed. You can
    try the ETL with the sample data located in the `sample` folder.
+   
 3) Provide your MySQL credential information in the `php/credentials.php` file
+
 4) Point your browser to the index.php file on your running apache server to 
    view the Interaction Dashboard.
 
@@ -38,6 +41,9 @@ jQuery, and D3.js.
 
 If you write an ETL script for a popular HRI system, please consider 
 contributing.
+
+Additional README files are located in the `www` and `etl` directorories for more
+information
 
 ## License
 
