@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+
+
+.area {
+  fill: steelblue;
+  clip-path: url(#clip);
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: 'Inconsolata';
+    font-size: 10px;
+}
+
+.unselectable *{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/** using unselectable doesnt work so just use no background **/
+svg text { 
+	background: none !important;
+}
+
+ .bar {  margin-bottom: 15px;} /**fill: steelblue;**/
+ .topbar {  margin-bottom: 15px;} /**fill: #999999;**/
+ .bartext { fill: black;   font-size: 0.8em; font-family: 'Open Sans', sans-serif; text-anchor: left; }
+ .bartext2 { fill: black;   font-size: 0.8em; font-family: 'Open Sans', sans-serif; text-anchor: left; }
+ .arabicText{
+     direction: rtl;
+ }
+ .bar:hover {
+  fill: brown;
+}
+ 
+.stat { width: 135px; display: inline; float:left; margin-top: 0.8em;}
+.stat_number_large { font-size: 1em; font-family: 'Ruda', sans-serif; color: black; font-weight : bold; text-align: center;}
+.stat_description { font-size: 0.8em; font-family: 'Segoe UI Light', 'Helvetica Neue Light', 'Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana; color: black; display: block; text-align: center;
+}
+
+rect.bordered {
+        stroke: #E6E6E6;
+        stroke-width:2px;   
+      }
+
+  text.mono {
+    font-size: 1em;
+    font-family: Inconsolata;
+    fill: #000;
+  }
+
+  text.axis-workweek {
+    fill: #000;
+  }
+
+  text.axis-worktime {
+    fill: #000;
+  }
+  
+  text.timeLabel.mono {
+    font-size: 0.8em;
+  }
+  
+.vertical-legend{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+}
+
+.horizontal-legend{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+}

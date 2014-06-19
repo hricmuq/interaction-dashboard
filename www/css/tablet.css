@@ -1,0 +1,567 @@
+
+
+
+
+@media (min-width: 1800px){
+	body{
+		font-size: 12pt;
+	}
+}
+
+@media (max-width: 1800px){
+	body{
+		font-size: 11pt;
+	}
+}
+
+@media (max-width: 1500px){
+	body{
+		font-size: 10pt;
+	}
+}
+
+@media (max-width: 1200px){
+	body{
+		font-size: 9pt;
+	}
+}
+
+@media (max-width: 1100px){
+	body{
+		font-size: 8pt;
+	}
+}
+
+@media (max-width: 940px){
+	body{
+		font-size: 7pt;
+	}
+}
+
+@media (max-width: 800px){
+	body{
+		font-size: 6pt;
+	}
+}
+
+@media (max-width: 700px){
+	body{
+		font-size: 5pt;
+	}
+}
+
+@media (max-width: 600px){
+	body{
+		font-size: 3pt;
+	}
+}
+
+body{
+	overflow: hidden;
+}
+
+input{
+	font-size: inherit;
+}
+
+.centered{
+	text-align: center;
+}
+
+#leftMenuBtn{
+	position: fixed;
+	top: 3em;
+	left: 0px;
+	width: 3em;
+	height: 3em;
+	z-index: 1;
+	opacity: 0.3;
+	background-color: black;
+	text-align: center;
+	color: white;
+	line-height: 3.2em;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+#leftMenu{
+	width: 0px;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#leftMenu div.modal{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: 0;
+	position: absolute;
+}
+
+#leftMenu div.content{
+	color: white;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	opacity: 1;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.contentLink{
+	width: 100%;
+    min-width: 20em;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	overflow: hidden;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.contentLink:hover{
+	color: grey;
+	background-color: black;
+}
+
+#mainBody{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background-color: white;
+	overflow: hidden;
+}
+
+#mainBodyContent{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+#contentScrollbar{
+	position: absolute;
+	width: 3em;
+	background-color: black;
+	opacity: 0.3;
+	right: 2em;
+	height: 20px;
+	top: 0px;
+}
+
+#contentScrollbar:hover{
+	opacity: 0.6;
+}
+
+.filterTimeDiv{
+	width: 49%;
+	float: left;
+	margin: 0 0.5% 0;
+	height: 6em;
+	position: relative;
+}
+
+.filterTimeContainer{
+    position: relative;
+}
+
+.filterTimeMessageDiv{
+	width: 49%;
+	height: 1em;
+	position: absolute;
+    text-align: center;
+    font-size: 0.8em;
+    left: 0px;
+    bottom: 2px;
+}
+
+.filterTimeRangeDiv {
+	width: 49%;
+	float: left;
+	margin: 0 0.5% 0; 
+}
+
+.clear{
+	clear: both;
+}
+
+.dateTime{
+	width: 12em;
+}
+
+.timeLabel{
+	float: left;
+	width: 5em;
+	position: relative;
+	top: 0.2em;
+}
+
+.timeField{
+	float: left;
+	clear: right;
+	margin-right: 0.75em;
+	width: 12em;
+}
+
+#ui-datepicker-div{
+	font-size: 1em;
+}
+
+.presetsDiv{
+	margin-top: 10px;
+}
+
+.presetsBtns{
+	float: left;
+	position: relative;
+	top: -3px;
+	font-size: 90%;
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+.ui-widget{
+	font-size: 1em;
+}
+
+.ui-slider .ui-slider-handle{
+	width: 1.5em;
+	height: 1.5em;
+	top: -0.5em;
+	cursor: pointer;
+}
+
+dt {
+  float: left;
+  clear: left;
+  margin-right: 5px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+dd {
+  margin-left: 65px;
+  margin-top: 11px;
+}
+
+
+.filterTitle{
+	
+}
+
+.filtersDiv{
+	clear: both;
+}
+
+.boxFiltersContainer{
+	clear: right;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+}
+
+.languagesFilter{
+	
+}
+
+.responseTypeFilter{
+	
+}
+
+.queryTypeFilter{
+	
+}
+
+.queryTypeFilterColumn{
+	float:left;
+	margin-right: 10px;
+	clear: right;
+}
+
+.querySearchFilter{
+	
+}
+
+.interactionDurationFilter{
+	
+}
+
+.interactionDurationFilterLabel{
+	float: left;
+	padding: 0 0.5em 0;
+}
+
+.chartBox{
+	float: left;
+	border: 1px solid #cacaca;
+	width: 45em;
+	height: 15em;
+    margin : 0.5em;
+}
+
+#aggregatedDataSection{
+	margin: 10px 5px;
+	border-top: 1px solid #cacaca;
+	border-bottom: 1px solid #cacaca;
+	clear: both;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.aggregatedDataTitle{
+	float: left;
+	margin-right: 20px;
+}
+
+.aggregatedDataSeriesContainer{
+	float: left;
+}
+
+.aggregatedDataSeries{
+	overflow: auto;
+	margin-bottom: 5px;
+    height: 2.6em;
+}
+
+.aggregatedSeriesTitle{
+	float: left;
+	margin-right: 10px;
+}
+
+.aggregatedData{
+	float: left;
+	margin-right: 10px;
+}
+
+.aggregatedDataValue{
+	font-size: 110%;
+}
+
+.aggregatedDataCaption{
+	font-size: 80%;
+}
+
+.closeBtn{
+	position: absolute;
+	/*width: 20px;
+	height: 20px;*/
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
+	text-align: center;
+	color: #888888;
+}
+
+#actionDiv{
+	margin-top: 5px;
+}
+
+#exportDiv{
+	float: right;
+	margin-right: 5px;
+}
+
+.filtersContainer{
+	
+}
+
+.ui-tabs .ui-tabs-nav li{
+	width: 9em;
+	position: relative;
+}
+
+#tabs .ui-tabs-anchor{
+	width: 7em;
+	cursor: pointer;
+}
+
+.tabCloseIcon{
+	position: absolute;
+	right: 0.1em;
+	cursor: pointer;
+	top: 0em;
+	font-size: 1.6em;
+	color: #888888;
+}
+
+.tabAddIcon{
+	width: 1.8em;
+	font-size: 1.8em;
+	cursor: pointer;
+}
+
+#tree{
+	height: 12em;
+	overflow: hidden;
+	width: 49%;
+	float: left;
+	padding-bottom: 0.25em;
+	border: 1px solid #888888;
+}
+
+#timelineChart{
+	height: 6em;
+	border: 1px solid #888888;
+	margin-bottom: 10px;
+}
+
+#interactionLog{
+	height: 12em;
+	overflow: hidden;
+	width: 49%;
+	float: left;
+	padding-bottom: 0.25em;
+	margin-left: 1%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border: 1px solid #888888;
+}
+
+#durationFilterLabel{
+	float: left;
+}
+
+#durationFilterContainer{
+	position: relative;
+	float: left;
+}
+
+#min_duration{
+	width: 2em;
+	background-color: white;
+	border: none;
+	float: left;
+}
+
+#slider_range{
+	position: relative;
+	width: 10em;
+	top: 0.3em;
+	float: left;
+}
+
+#max_duration{
+	position: relative;
+	width: 2em;
+	float: left;
+	background-color: white;
+	border: none;
+	margin-left: 1.8em;
+}
+
+.interactionTitle{
+	font-weight: bold;
+	font-size : 110%;
+	margin-top: 0.5em;
+}
+
+.interactionEntry{
+	margin-bottom: 5px;
+}
+
+.interactionTime{
+	
+}
+
+.interactionQuery{
+	border-width: 1px;
+	border-style: solid;
+	float: left;
+	clear: right;
+	padding: 5px;
+	max-width: 75%;
+	margin-bottom: 5px;
+}
+
+.interactionResponse{
+	float: right;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+	max-width: 75%;
+	margin-bottom: 5px;
+}
+
+.properResponse{
+	border-color: blue;
+}
+
+.missedResponse{
+	border-color: red;
+}
+
+legend{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+
+button{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.timelabel{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.filterTitle {
+	 font-family: 'PT Sans', sans-serif;
+	 font-size: 1em;
+}
+
+.boxFiltersContainer label {
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: .9em;
+}
+
+.aggregatedDataTitle {
+	font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+.aggregatedSeriesTitle{
+	font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+}
+
+.aggregatedDataValue{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.aggregatedDataCaption{
+	font-family: 'Open Sans', sans-serif;
+  font-size: .7em;
+}
+
+#addchart{
+	  font-family: 'PT Sans', sans-serif;
+}
+
+.charterror {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	width: 50%;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .7em;
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('../images/icons-png/alert-black.png');
+}
+
+.chartTitle{
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}

@@ -1,0 +1,13 @@
+10/20/2013 12:38:54 : Start interaction
+10/20/2013 12:38:54 : Input started
+
+10/20/2013 12:38:54 : *****ASCIIFIED INPUT: what is the weather for todayXYZ9988
+10/20/2013 12:38:54 : User input: what is the weather for today
+10/20/2013 12:38:54 : Vaine output: ~W DOHA TODAY ~W
+10/20/2013 12:39:01 : weatherReport: Sunny:92:74
+10/20/2013 12:39:02 : Chat response: segue_help speak("The weather today in DOHA will be Sunny,") speak("with a temperature between 23 and 33 degrees celcius")
+10/20/2013 12:39:34 : Set time
+10/20/2013 12:39:36 : Response Completed*****
+
+10/20/2013 12:40:22 : End interaction
+10/20/2013 12:40:34 : Interaction ended
